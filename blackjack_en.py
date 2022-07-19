@@ -91,7 +91,7 @@ def fazer_aposta():
     global bet
     bet = 0
 
-    print("Waht is your bet? (Please type an integer )")
+    print("What is your bet? (Please type an integer )")
 
     while bet == 0:
         bet_comp = input()
@@ -252,7 +252,7 @@ def intro():
     chip_pool = 100
     statement = '''Welcome to the game of Black Jack!!!
     
-      Try to get as close to 21 as possible without popping.!!
+      Try to get as close to 21 as possible without get busted.
       Dealer will continue until reaching 17, Aces count as 1 or 11. You start with 100 chips.
       Good Luck !!!
       '''
